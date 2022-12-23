@@ -1,0 +1,19 @@
+{
+  "name": "app-peliculas",
+  "version": "1.0.0",
+  "description": "web de peliculas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvilladiego/app-peliculas.git"
+  },
+  "author": "carlos villadiego - carlovinar93@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cvilladiego/app-peliculas/issues"
+  },
+  "homepage": "https://github.com/cvilladiego/app-peliculas#readme"
+}
