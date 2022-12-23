@@ -29,16 +29,28 @@ body {
 	font-weight: 600;
 }
 
+
+.promedio{
+	font-size: 12px;
+	font-weight: 3600;
+	color: #135caa;
+
+}
+p{
+	font-size: 12px;
+	font-weight: 300;
+	color: rgb(134, 134, 134);
+}
 .contenedor .pelicula .poster {
 	width: 100%;
 	margin-bottom: 10px;
-	border-radius: 15px;
+	border-radius: 5px;
 }
 
 .paginacion {
 	position: fixed;
 	bottom: 0;
-	background: #100a1f;
+	background: #2B3A55;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -55,14 +67,13 @@ body {
 	text-align: center;
 	height: 50px;
 	width: 200px;
-	background: #241744;
+	background: #476192;
 	color: #fff;
-	border-radius: 100px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	transition: .3s ease all;
 }
 
 .paginacion button:hover {
-	background: #137c32;
+	background: #144272;
 }
