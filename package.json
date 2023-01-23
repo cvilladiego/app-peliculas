@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cvilladiego/app-peliculas/issues"
   },
-  "homepage": "https://github.com/cvilladiego/app-peliculas#readme"
+  "homepage": "https://github.com/cvilladiego/app-peliculas#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
 }

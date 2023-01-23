@@ -14,10 +14,10 @@ body {
 	width: 90%;
 	max-width: 1000px;
 	margin: 40px auto 100px auto;
-
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 40px;
+	margin-top: 80px;
 }
 
 .contenedor .pelicula {
@@ -58,9 +58,11 @@ p{
 	padding: 10px;
 }
 
+
 .paginacion button {
 	cursor: pointer;
 	border: none;
+	border-radius: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -77,3 +79,53 @@ p{
 .paginacion button:hover {
 	background: #144272;
 }
+
+.menu{
+	background-color: #2B3A55;
+	height: 60px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+.logo{
+	color: #fff;
+	font-size: 30px;
+	padding: 0 80px;
+	font-weight: bold;
+}
+
+.menu ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin-right: 30px;
+
+}
+
+.menu ul li{
+	border-radius: 3px;
+	margin: 0 5px;
+}
+
+.menu ul li:hover, li.active{
+	background-color: #476192;
+	transition: .4s;
+	
+}
+
+.menu ul li a{
+	padding: 7px;
+	text-decoration: none;
+	font-size: 13px;
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+
+
