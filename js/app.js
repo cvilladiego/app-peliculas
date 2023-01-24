@@ -1,3 +1,12 @@
+
+const btnmenu = document.querySelector('.btn-menu');
+const menuitem = document.querySelector('.menu-item');
+btnmenu.addEventListener('click', ()=>{
+    menuitem.classList.toggle('show');
+
+})
+
+
 const botonSiguiente = document.getElementById('btnSiguiente');
 const botonAnterior = document.getElementById('btnAnterior');
 let pagina = 1;
